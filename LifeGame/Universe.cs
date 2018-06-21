@@ -6,11 +6,11 @@ namespace WaterPipes
 {
     public class Universe
     {
+        internal int Timer { get; set; } = 0;
         private Map map = new Map();
         private Cursor cursor = new Cursor();
         private Style style = new Style();
         private List<char[,]> turns = new List<char[,]>();
-        internal int Timer { get; set; } = 0;
         private UpdateGameRules сheckUpdate = new UpdateGameRules();
         public bool end = false;
 
