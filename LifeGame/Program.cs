@@ -21,7 +21,7 @@ namespace WaterPipes
                 Console.WriteLine(game.Timer);
                 game.Show();
                 Thread.Sleep(runTime);
-            } while (game.end == false);
+            } while (!game.end);
         }
     }
 }
