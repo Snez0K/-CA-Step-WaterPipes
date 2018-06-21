@@ -42,10 +42,12 @@ namespace WaterPipes
                         if (map.Field[i, j] == style.EmptyPipe)
                         {
                             Console.ForegroundColor = ConsoleColor.White;
-                        }else if (map.Field[i, j] == style.WaterSource)
+                        }
+                        else if (map.Field[i, j] == style.WaterSource)
                         {
                             Console.ForegroundColor = ConsoleColor.Yellow;
-                        }else if (map.Field[i, j] == style.FilledPipe)
+                        }
+                        else if (map.Field[i, j] == style.FilledPipe)
                         {
                             Console.ForegroundColor = ConsoleColor.Blue;
                         }
