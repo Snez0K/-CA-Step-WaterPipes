@@ -18,7 +18,7 @@ namespace WaterPipes.Command
 
         public void Execute()
         {
-            map.Start = true;
+            map.start = true;
         }
     }
 }

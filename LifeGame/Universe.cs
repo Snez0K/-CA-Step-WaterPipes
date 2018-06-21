@@ -84,7 +84,7 @@ namespace WaterPipes
                     }
                 }
                 Console.Clear();
-            } while (!map.Start);
+            } while (!map.start);
         }
 
         public void Update()

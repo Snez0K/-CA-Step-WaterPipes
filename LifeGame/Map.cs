@@ -8,6 +8,6 @@
 
         internal char[,] Field { get; set; } = new char[Yline, Xline];
 
-        public bool Start = false;
+        public bool start = false;
     }
 }
